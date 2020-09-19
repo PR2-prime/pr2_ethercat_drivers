@@ -42,6 +42,7 @@
 #include "realtime_tools/realtime_publisher.h"
 #include "diagnostic_updater/DiagnosticStatusWrapper.h"
 
+#include <boost/thread.hpp>
 #include <boost/utility.hpp>
 #include <boost/thread/mutex.hpp>
 #include <boost/shared_ptr.hpp>
